@@ -1,0 +1,98 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html{
+}
+body{
+	background-color: #ffffff;
+	font-family: 'Arial', sans-serif;
+}
+img{	
+	border: 0;
+}
+h1 {
+	/*font-size: 40px;
+	font-family: "Titillium Web";
+	font-weight: bold;
+	line-height: 0.748;
+  text-align: center;
+	text-transform: uppercase;*/
+}
+h1:after {
+	/*display: block;
+	margin: 20px auto;
+	content: "";
+	background-color: grey;
+	opacity: 0.3;
+	width: 87px;
+	height: 5px;*/
+}
+h2 {/*
+	text-transform: uppercase;
+	font-family: "Titillium Web";*/
+}
+a{
+	color: #0ebaf2;
+	outline: none;
+	text-decoration: none;
+}
+a:hover{
+	color: #000;	
+}
+a:active{
+	color: #c60101;
+}
+a:visited{
+	color: #c60101;
+}	
+ul li{
+	list-style: none;
+}
+/*section{
+	clear: both;
+}*/
+.section-wrapper{
+	max-width: 960px;
+	/*padding: 80px 120px 80px 150px;*/
+	/*margin: 0 auto;*/
+	/*text-align: center;*/
+}
+.section-wrapper:after{
+	/*clear: both;*/
+}
+/* Layout----------------------------------*/	
+header{
+	width: 100%;
+	height: 200px;
+	background: url("../images/layout/background.png") repeat-x;
+		box-sizing: border-box;
+
+}
+header .section-wrapper{
+	/*padding: 50px 120px 0px 120px;*/
+	max-width: 960px;
+	min-width: 320px;
+	height: 100%;
+}
+header .logo {
+	height: 45px;
+	width: 140px;
+	background: url("../images/layout/logo.png") no-repeat;
+	float: left;
+	/*display: inline-block;*/
+}
+header nav{
+	float: left;
+	
+}
+header nav ul li a {
+	display: block;
+header form{
+	float: left
+}
+header .right-wpapper{
+	float: right;
+	background-color: yellow;
+}
+

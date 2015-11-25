@@ -1,0 +1,52 @@
+@media screen and (max-width: 900px){
+	#top-menu{
+		display: none;
+	}
+	#top-menu-mobile{
+		display: block;
+	}
+header{
+	width: 100%;
+	height: 100%;
+	/*background: url("../images/layout/background.png") repeat;*/
+	background-color: green;
+}
+	header .section-wrapper{
+		width: 100%;
+		height: 100%;
+	}
+	header .menu-wrapper{
+		width: 100%;
+		height: 100%;
+		display: block;
+		
+	}
+	header .menu-wrapper:after{
+		clear: both;
+	}
+header .logo {
+	margin: 15px auto;
+	height: 45px;
+	width: 140px;
+	background: url("../images/layout/logo.png") no-repeat;
+}
+header #top-menu-mobile li{
+	display: block;
+	padding: 0px 5px 0px 5px;
+	background-color: greenyellow;
+}
+header #top-menu-mobile a{
+	display: block;
+	padding: 5px 10px;
+}
+header #top-menu-mobile a:hover{
+	background-color: #2f2f2f;
+	color: #e8e8e8;
+}
+.slider{
+	display: none;
+}
+.main .section-wrapper{
+	position: static;
+	}
+}
